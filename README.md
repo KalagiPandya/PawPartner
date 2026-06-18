@@ -244,6 +244,7 @@ PawPartner/
 
 > Same pattern for `/api/v1/adoption-centers` and `/api/v1/pet-shops`
 
+
 ### 🐾 My Pets — `/api/v1/owned-pets`
 
 | Method | Endpoint | Auth | Description |
@@ -253,12 +254,16 @@ PawPartner/
 | PATCH | `/update/:id` | ✅ | Update pet |
 | DELETE | `/delete/:id` | ✅ | Delete pet |
 
+
+
 ### ❤️ Adoption Center Pets — `/api/v1/adoption-center-pets`
 
 | Method | Endpoint | Auth | Description |
 |--------|----------|:----:|-------------|
 | GET | `/:centerId` | — | Get pets at a center (public) |
 | POST | `/add` | ✅ Center | Add a pet to your center |
+
+ 
 
 ### 📦 Items — `/api/v1/items`
 
@@ -282,18 +287,7 @@ PawPartner/
 
 ---
 
-## 🚨 Troubleshooting
 
-| Problem | Solution |
-|---------|----------|
-| 🔴 Demo login failed | **Restart the server** (`npm start`) — demo accounts auto-seed on every boot |
-| 🔴 `ECONNREFUSED 27017` | Start MongoDB: run `mongod` in a terminal |
-| 🔴 White page after login | Clear browser storage: `localStorage.clear()` then refresh |
-| 🔴 Registration failed | Check MongoDB is running. OTP shows in the yellow in-app banner |
-| 🔴 CORS error | Backend = port 8000, Frontend = port 5173. Don't change these |
-| 🔴 Images not uploading | Add Cloudinary credentials to `Server/.env` |
-
----
 
 ## 🚀 Push to GitHub
 
@@ -318,11 +312,11 @@ Distributed under the **ISC License**.
 <div align="center">
 
 ```
-                                    🐾 ────────────────────────────────────────── 🐾
-                                              Made with ❤️ by Kalagi Pandya
+                                 🐾 ────────────────────────────────────────── 🐾
+                                       Made with ❤️ by Kalagi Pandya
    
-                                             "Every pet deserves a loving home"
-                                      🐾 ────────────────────────────────────────── 🐾
+                                         "Every pet deserves a loving home"
+                                   🐾 ────────────────────────────────────────── 🐾
 ```
 
 **⭐ Star this repo if it helped you!**
