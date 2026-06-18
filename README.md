@@ -312,11 +312,11 @@ Distributed under the **ISC License**.
 <div align="center">
 
 ```
-                                 🐾 ────────────────────────────────────────── 🐾
-                                       Made with ❤️ by Kalagi Pandya
+                             🐾 ────────────────────────────────────────── 🐾
+                                     Made with ❤️ by Kalagi Pandya
    
-                                         "Every pet deserves a loving home"
-                                   🐾 ────────────────────────────────────────── 🐾
+                                     "Every pet deserves a loving home"
+                                  🐾 ────────────────────────────────────────── 🐾
 ```
 
 **⭐ Star this repo if it helped you!**
