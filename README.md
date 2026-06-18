@@ -135,6 +135,7 @@ npm start
 ```
 
 > ✅ Browser opens automatically at **http://localhost:5173**
+
 > 🌱 Demo accounts are seeded into MongoDB automatically — every time the server starts!
 
 ---
