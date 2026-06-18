@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap');
+
+:root {
+  --primary: #FF6B35;
+  --primary-light: #FF8C5A;
+  --secondary: #4ECDC4;
+  --accent: #FF6B9D;
+  --bg: #FFF8F3;
+  --text: #2D2D2D;
+  --text-muted: #7A7A8C;
+  --font: 'Nunito', sans-serif;
+  --font-display: 'Playfair Display', serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font); background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }
+button { cursor: pointer; font-family: var(--font); }
+input, textarea, select { font-family: var(--font); }
+a { text-decoration: none; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--primary-light); border-radius: 10px; }
+
+@keyframes float      { 0%,100%{ transform:translateY(0) }  50%{ transform:translateY(-12px) } }
+@keyframes spin       { to { transform: rotate(360deg) } }
+@keyframes fadeInUp   { from { opacity:0; transform:translateY(24px) } to { opacity:1; transform:translateY(0) } }
+@keyframes wiggle     { 0%,100%{ transform:rotate(0) } 25%{ transform:rotate(-8deg) } 75%{ transform:rotate(8deg) } }
+@keyframes pulsePaw   { 0%,100%{ transform:scale(1) } 50%{ transform:scale(1.18) } }
+@keyframes bounceIn   { 0%{ transform:scale(.4); opacity:0 } 60%{ transform:scale(1.1) } 80%{ transform:scale(.96) } 100%{ transform:scale(1); opacity:1 } }
+@keyframes shimmer    { 0%{ background-position:-200% center } 100%{ background-position:200% center } }
+@keyframes runPet     { 0%{ transform:translateX(-120px) } 100%{ transform:translateX(calc(100vw + 120px)) } }
+@keyframes wag        { 0%,100%{ transform:rotate(-20deg) } 50%{ transform:rotate(20deg) } }
+@keyframes popUp      { 0%{ transform:scale(0) translateY(20px); opacity:0 } 70%{ transform:scale(1.1) translateY(-4px) } 100%{ transform:scale(1) translateY(0); opacity:1 } }

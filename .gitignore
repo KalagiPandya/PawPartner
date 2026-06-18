@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build output
+client/dist/
+client/.vite/
+
+# Environment files (NEVER commit these)
+server/.env
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Uploaded temp files
+server/public/temp/*
+!server/public/temp/.gitkeep
